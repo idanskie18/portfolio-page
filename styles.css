@@ -1,0 +1,109 @@
+body, p, h1, h2, h3, button {
+    margin: 0;
+    padding: 0;
+    font-family: "Playfair Display", Georgia, serif;
+    font-family: "Open Sans", Verdana, sans-serif;
+}
+
+body {
+    background-color: #fae883;
+}
+
+#s1 {
+    position: relative;
+    background-color: #7e58b2;
+    padding: 0;
+    text-align: right;
+}
+
+.buttons {
+    position: absolute;
+    top: 10px; 
+    right: 10px; 
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    background-color: #e3e9e4;
+    color: white;
+    border: none;
+    padding: 12px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    outline: none;
+}
+
+button:hover {
+    background-color: #222422; 
+}
+
+button:active {
+    background-color: #3e8e41; 
+}
+
+.images {
+    width: 150px;
+    height: 150px;
+    background-image: url('leb.png');
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.page-title {
+    font-size: 48px;
+    color: white;
+    margin-top: 0; 
+}
+
+#s2 {
+    padding: 10px;
+}
+
+.s-content {
+    background-color: #f49116;
+    padding: 20px;
+}
+
+#s3 {
+    text-align: center;
+}
+
+.image {
+    display: inline-block;
+    text-align: center;
+    margin: 0 20px; 
+}
+
+.image img {
+    width: 100%; 
+    max-width: 150px; 
+    display: block;
+    margin: 0 auto;
+}
+
+.image p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+
+#s4 {
+    background-color: #cf9ac5;
+    padding: 20px;
+    text-align: left;
+}
+
+#s4 h2 {
+    font-size: 24px;
+}
+
+footer {
+    text-align: center;
+    background-color: #cf9ac5;
+    padding: 20px;
+    text-align: center;
+    
+}
